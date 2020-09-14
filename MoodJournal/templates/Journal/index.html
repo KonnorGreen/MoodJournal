@@ -1,0 +1,10 @@
+{% extends "Journal/layout.html" %}
+
+{% block body %}
+<h1>Jorunals</h1>
+<ul>
+{% for journal in journals %}
+    <li>MoodJournal ||   {{journal.date}} - {{journal.time}} - {{journal.mood}} - {{journal.entry}} </li>
+    {% endfor %}
+</ul>
+{% endblock %}

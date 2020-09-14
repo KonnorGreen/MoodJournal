@@ -1,0 +1,26 @@
+.title {
+  text-align: center;
+}
+
+.submit-button {
+  background-color:gray;
+  color:black;
+}
+
+.viewEntryButton {
+  background-color:gray;
+  color:black;
+  height: 500px;
+  width: 500px;
+}
+
+.newEntryButton {
+  background-color:gray;
+  color:black;
+  height: 500px;
+  width: 500px;
+}
+
+body {
+  background-color: rgb(184, 129, 184);
+}

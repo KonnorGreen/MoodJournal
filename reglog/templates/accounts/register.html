@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodJournal - :)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="{% static 'accounts/style.css' %}">
+</head>
+<body>
+    <h1 class="title">Register Page</h1>
+
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{form}}
+        <br>
+        <br>
+        <input type="submit" name="Create User" class="submit-button">
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+</body>
+</html>
