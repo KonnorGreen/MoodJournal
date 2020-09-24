@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>MoodJournal - :)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Mood Journal</h1>
+  </header>
+  <main>
+    <form class="entry-form">
+      <label for="subject">Subject</label>
+      <input class="u-full-width" type="text" name="name" id="subject">
+      <label for="moodSelect">Select Your Mood</label>
+      <select class="u-full-width" id="moodSelect">
+        <option value="Option 1">Happy</option>
+        <option value="Option 2">Sad</option>
+        <option value="Option 3">Angry</option>
+        <option value="Option 4">Anxious</option>
+        <option value="Option 5">Excited</option>
+        <option value="Option 6">I don't know</option>
+      </select>
+      <label for="content">Describe your Mood</label>
+      <textarea class="u-full-width" type="text" name="content"></textarea>
+      <br>
+      <center>
+        <button class="submit-button" type="submit" onclick="count()">Sumbit</button>
+      </center>
+    </form>
+  </main>
+  <script src="client.js"></script>
+</body>
+
+</html>
